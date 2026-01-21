@@ -95,17 +95,7 @@
             letter-spacing: -0.05em;
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+    <!-- 已删除导致报错的 React 引用和 .tsx 引用 -->
 </head>
 <body class="selection:bg-yellow-500/30">
 
@@ -521,6 +511,5 @@
             }, 1200);
         });
     </script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>
